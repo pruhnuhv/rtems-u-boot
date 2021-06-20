@@ -1,0 +1,3 @@
+fatload mmc 0:1 0x1000 dtb_file_name.dtb
+fatload mmc 0:1 0x200000 ticker.img
+bootm 0x200000 - 0x1000
